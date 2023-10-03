@@ -1,4 +1,4 @@
-.header{
+.header {
   display: grid;
   grid-template-columns: 596px auto 595px;
   grid-template-areas: 
@@ -7,12 +7,12 @@
   height: 293px;
   padding: 92px 49px 92px 51px; /*Сверху | справа | снизу | слева*/
 }
-.header__menu{
+.header__menu {
   justify-items: start;
   grid-area: menu;
   margin: 43px 209px 43px 0px;
 }
-ul.header__links-list{
+ul.header__links-list {
   display: flex;
   font-style: normal;
   text-decoration-thickness: 1px;
@@ -27,21 +27,22 @@ ul.header__links-list li {
 li.header__links-list-item a {
   font-size: 18px;
 }
-.header__link_active{
+.header__link_active {
   text-decoration: none;
 }
 ul.header__links-list li:first-of-type {
   margin-left: 0px;
   list-style: none;
 }
-.header__logo{
+.header__logo {
   grid-area: logo;
+  display: block;
 }
-.header__logo-image{
+.header__logo-image {
   width: 147px;
   height: 105px;
 }
-.address{
+.address {
   display: grid;
   grid-template-rows: 24px 24px auto;
   grid-area: address;
@@ -50,20 +51,19 @@ ul.header__links-list li:first-of-type {
   padding-right: 1px; 
   font-size: 18px;
   text-underline-offset: 4px;
-  
 }
-.header__address{
+.header__address {
   margin-bottom: 0px;
   font-style: normal;
   
 }
-.extended-line-height{
+.extended-line-height {
   line-height: 1.7;
 }
 
 /*Входная секция*/
 
-.cover{
+.cover {
   width: 1440px;
   height: 757px;
   background-image: url(../images/cover.jpg);
@@ -71,7 +71,7 @@ ul.header__links-list li:first-of-type {
   background-position: center;
   background-size:cover;
 }
-.overlay{
+.overlay {
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -79,43 +79,43 @@ ul.header__links-list li:first-of-type {
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.6);
 }
-.cover__title{
+.cover__title {
   padding: 164px 50px 127px 50px;
   font-weight: bold;
   font-size: 100px;
   letter-spacing: 30px;
 }
-.letter-spacing-extended{
+.letter-spacing-extended {
   letter-spacing: 60px;
 }
-.aligned-text_center{
+.aligned-text_center {
   padding-top: 10px;
   padding-right: 30px;
   text-align: center;
 }
-.aligned-text_right{
+.aligned-text_right {
   padding-top: 3px;
   padding-left: 60px;
   text-align: end;
 }
-.no-letter-spacing{
+.no-letter-spacing {
   letter-spacing: 0px;
 }
-.cover__description{
+.cover__description {
   display: flex;
   justify-content: flex-end;
 }
-.cover__description-text{
+.cover__description-text {
   margin: 14px 0 0 0;
   vertical-align: text-bottom;
   font-weight: lighter;
   font-size: 22px;
   word-spacing: 17px;
 }
-.extra-word-spacing{
+.extra-word-spacing {
   word-spacing: 19.5px;
 }
-.bet-button{
+.bet-button {
   width: 257px;
   height: 52px;
   margin-right: 50px;
@@ -130,30 +130,30 @@ ul.header__links-list li:first-of-type {
 
 /*Секция с карточками*/
 
-.lots{
+.lots {
   padding: 180px 50px 181px 50px;
 }
-.lots__heading{
+.lots__heading {
   padding-left: 40px;
   font-size: 40px;
   text-transform: uppercase;
 }
-.lots__card-list{
+.lots__card-list {
  display: flex;
  gap: 25px;
  padding-top: 27px;
  list-style: none;
 }
-.lots__card-list-item{
+.lots__card-list-item {
   flex: 0 0 430px;
   min-height: 450px;
 }
-.card-link{
+.card-link {
   display: block;
   height: 100%;
   text-decoration: none;
 }
-.card .overlay{
+.card .overlay {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -174,16 +174,16 @@ ul.header__links-list li:first-of-type {
   font-size: 20px;
   text-transform: none;
 }
-.card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
-.card_type_book{
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
-.card_type_picture{
+.card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
-.lots__look-more-link{
+.lots__look-more-link {
   display: block;
   padding-top: 30px;
   padding-left: 40px;
@@ -205,7 +205,7 @@ ul.header__links-list li:first-of-type {
 .about__column {
   position: relative;
 }
-.about__logo{
+.about__logo {
   position: absolute;
   left: 50%;
   display: grid;
@@ -217,20 +217,20 @@ ul.header__links-list li:first-of-type {
   background-color: black;
   transform: translate(-50%);
 }
-.about__logo-image{
+.about__logo-image {
   width: 148px;
   height: 114px;
 }
-.about__title{
+.about__title {
   padding-top: 100px;
   font-size: 40px;
   text-transform: uppercase;
 }
-.about__text{
+.about__text {
   padding-top: 100px;
   font-size: 20px;
 }
-.first-paragraph{
+.first-paragraph {
   margin-bottom: 25px;
 }
 
@@ -253,7 +253,6 @@ ul.header__links-list li:first-of-type {
 
 .footer__menu {
   grid-area: menu;
-  /* gap: 10px; */
 }
 
 .footer__menu-list {
@@ -278,7 +277,6 @@ ul.header__links-list li:first-of-type {
 }
 
 .footer__social-list {
-  display: grid;
   display: inline-flex;
   grid-area: social;
   gap: 50px;
@@ -286,7 +284,7 @@ ul.header__links-list li:first-of-type {
 }
 
 .footer__social-link {
-list-style: none;
+  list-style: none;
 }
 
 .footer__social-icon {
