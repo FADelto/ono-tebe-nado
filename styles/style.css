@@ -88,6 +88,9 @@ ul.header__links-list li:first-of-type {
 .letter-spacing-extended {
   letter-spacing: 60px;
 }
+.aligned-text {
+  display: block;
+}
 .aligned-text_center {
   padding-top: 10px;
   padding-right: 30px;
@@ -95,7 +98,6 @@ ul.header__links-list li:first-of-type {
 }
 .aligned-text_right {
   padding-top: 3px;
-  padding-left: 60px;
   text-align: end;
 }
 .no-letter-spacing {
