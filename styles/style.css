@@ -55,7 +55,7 @@ ul.header__links-list li:first-of-type {
   grid-area: address;
   justify-content: end;
   padding-top: 6px;
-  padding-right: 1px; 
+  padding-right: 1px;
   font-size: 18px;
   text-underline-offset: 4px;
 }
@@ -228,7 +228,7 @@ ul.header__links-list li:first-of-type {
   position: relative;
 }
 
-.about__logo-position{
+.about__logo-position {
   display: grid;
   justify-items: center;
 }
@@ -287,7 +287,7 @@ ul.header__links-list li:first-of-type {
   display: grid;
   gap: 1px;
   text-align: center;
-  list-style: none; 
+  list-style: none;
 }
 
 .footer__menu-list-item {
