@@ -54,10 +54,10 @@ ul.header__links-list li:first-of-type {
   grid-template-rows: 24px 24px auto;
   grid-area: address;
   justify-content: end;
-  padding-top: 6px;
   padding-right: 1px;
   font-size: 18px;
   text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
 }
 
 /*Входная секция*/
@@ -333,8 +333,4 @@ ul.header__links-list li:first-of-type {
 .location {
   margin-bottom: 0px;
   font-style: normal;
-}
-
-.extended-line-height {
-  line-height: 1.7;
 }
